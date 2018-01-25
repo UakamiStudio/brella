@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.ui.view" context="{'studio': True}" id="studio_customization.odoo_studio_res_part_28049b19-4e47-4dea-b701-4ff7ee1ea425">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//form[1]/sheet[1]/group[1]/group[2]/field[@name='lang']" position="after">
+          <field name="x_studio_field_vkaQU" string="WhatsApp" widget="char"/>
+          <field name="x_studio_field_DArU1" string="Pagina de Facebook" widget="url"/>
+        </xpath>
+        <xpath expr="//field[@name='company_id']" position="after">
+          <field name="x_studio_field_7Xc1l" string="Origen" widget="char"/>
+          <field name="x_studio_field_onNUF" string="Fecha de Registro" widget="date"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="mode">extension</field>
+    <field name="model">res.partner</field>
+    <field name="name">Odoo Studio: res.partner.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+</odoo>
