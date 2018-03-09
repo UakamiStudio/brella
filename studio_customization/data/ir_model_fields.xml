@@ -1,115 +1,171 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
   <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.new_text_res_partner_5e7cde3d-f574-4e9d-86c9-cfb780b401e2">
-    <field name="complete_name" eval="False"/>
-    <field name="compute" eval="False"/>
-    <field name="copy" eval="False"/>
-    <field name="depends" eval="False"/>
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
     <field name="domain">[]</field>
     <field name="field_description">Origin</field>
-    <field name="groups" eval="[(6, 0, [])]"/>
-    <field name="help" eval="False"/>
-    <field name="index" eval="False"/>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
     <field name="model">res.partner</field>
-    <field name="model_id" ref="account.model_res_partner"/>
+    <field ref="account.model_res_partner" name="model_id"/>
     <field name="name">x_studio_field_7Xc1l</field>
     <field name="on_delete">set null</field>
-    <field name="readonly" eval="False"/>
-    <field name="related" eval="False"/>
-    <field name="relation" eval="False"/>
-    <field name="relation_field" eval="False"/>
-    <field name="required" eval="False"/>
-    <field name="selectable" eval="True"/>
-    <field name="selection" eval="False"/>
-    <field name="size" eval="False"/>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field eval="False" name="relation"/>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
     <field name="state">manual</field>
-    <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
-    <field name="translate" eval="True"/>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="True" name="translate"/>
     <field name="ttype">char</field>
   </record>
   <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.new_date_res_partner_0c8e8c41-7255-4395-aaf1-2acab95147b9">
-    <field name="complete_name" eval="False"/>
-    <field name="compute" eval="False"/>
-    <field name="copy" eval="False"/>
-    <field name="depends" eval="False"/>
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
     <field name="domain">[]</field>
     <field name="field_description">Registration date</field>
-    <field name="groups" eval="[(6, 0, [])]"/>
-    <field name="help" eval="False"/>
-    <field name="index" eval="False"/>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
     <field name="model">res.partner</field>
-    <field name="model_id" ref="account.model_res_partner"/>
+    <field ref="account.model_res_partner" name="model_id"/>
     <field name="name">x_studio_field_onNUF</field>
     <field name="on_delete">set null</field>
-    <field name="readonly" eval="False"/>
-    <field name="related" eval="False"/>
-    <field name="relation" eval="False"/>
-    <field name="relation_field" eval="False"/>
-    <field name="required" eval="False"/>
-    <field name="selectable" eval="True"/>
-    <field name="selection" eval="False"/>
-    <field name="size" eval="False"/>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field eval="False" name="relation"/>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
     <field name="state">manual</field>
-    <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
-    <field name="translate" eval="False"/>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="False" name="translate"/>
     <field name="ttype">date</field>
   </record>
   <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.new_text_res_partner_956b0443-3dee-4f1c-9b88-989bbb903b71">
-    <field name="complete_name" eval="False"/>
-    <field name="compute" eval="False"/>
-    <field name="copy" eval="False"/>
-    <field name="depends" eval="False"/>
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
     <field name="domain">[]</field>
     <field name="field_description">WhatsApp</field>
-    <field name="groups" eval="[(6, 0, [])]"/>
-    <field name="help" eval="False"/>
-    <field name="index" eval="False"/>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
     <field name="model">res.partner</field>
-    <field name="model_id" ref="account.model_res_partner"/>
+    <field ref="account.model_res_partner" name="model_id"/>
     <field name="name">x_studio_field_vkaQU</field>
     <field name="on_delete">set null</field>
-    <field name="readonly" eval="False"/>
-    <field name="related" eval="False"/>
-    <field name="relation" eval="False"/>
-    <field name="relation_field" eval="False"/>
-    <field name="required" eval="False"/>
-    <field name="selectable" eval="True"/>
-    <field name="selection" eval="False"/>
-    <field name="size" eval="False"/>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field eval="False" name="relation"/>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
     <field name="state">manual</field>
-    <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
-    <field name="translate" eval="False"/>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="False" name="translate"/>
     <field name="ttype">char</field>
   </record>
   <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.new_text_res_partner_928ed198-5d36-4f06-a554-70b60799ef14">
-    <field name="complete_name" eval="False"/>
-    <field name="compute" eval="False"/>
-    <field name="copy" eval="False"/>
-    <field name="depends" eval="False"/>
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
     <field name="domain">[]</field>
     <field name="field_description">Facebook Page</field>
-    <field name="groups" eval="[(6, 0, [])]"/>
-    <field name="help" eval="False"/>
-    <field name="index" eval="False"/>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
     <field name="model">res.partner</field>
-    <field name="model_id" ref="account.model_res_partner"/>
+    <field ref="account.model_res_partner" name="model_id"/>
     <field name="name">x_studio_field_DArU1</field>
     <field name="on_delete">set null</field>
-    <field name="readonly" eval="False"/>
-    <field name="related" eval="False"/>
-    <field name="relation" eval="False"/>
-    <field name="relation_field" eval="False"/>
-    <field name="required" eval="False"/>
-    <field name="selectable" eval="True"/>
-    <field name="selection" eval="False"/>
-    <field name="size" eval="False"/>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field eval="False" name="relation"/>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
     <field name="state">manual</field>
-    <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
-    <field name="translate" eval="False"/>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="False" name="translate"/>
     <field name="ttype">char</field>
+  </record>
+  <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.origen_res_partner_1dfb6353-34b7-4ffc-982c-b5b391d4630c">
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Source</field>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
+    <field name="model">res.partner</field>
+    <field ref="account.model_res_partner" name="model_id"/>
+    <field name="name">x_studio_field_2vPuG</field>
+    <field name="on_delete">set null</field>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field name="relation">utm.source</field>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
+    <field name="state">manual</field>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="False" name="translate"/>
+    <field name="ttype">many2one</field>
+  </record>
+  <record model="ir.model.fields" context="{'studio': True}" id="studio_customization.etiquetas_de_empresa_fecc5dd3-acb9-45d6-86b9-16158cb9772d">
+    <field eval="False" name="complete_name"/>
+    <field eval="False" name="compute"/>
+    <field eval="False" name="copy"/>
+    <field eval="False" name="depends"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Tags</field>
+    <field eval="[(6, 0, [])]" name="groups"/>
+    <field eval="False" name="help"/>
+    <field eval="False" name="index"/>
+    <field name="model">crm.lead</field>
+    <field ref="crm.model_crm_lead" name="model_id"/>
+    <field name="name">x_studio_field_Kmc27</field>
+    <field name="on_delete">set null</field>
+    <field eval="False" name="readonly"/>
+    <field eval="False" name="related"/>
+    <field name="relation">res.partner.category</field>
+    <field eval="False" name="relation_field"/>
+    <field eval="False" name="required"/>
+    <field eval="True" name="selectable"/>
+    <field eval="False" name="selection"/>
+    <field eval="False" name="size"/>
+    <field name="state">manual</field>
+    <field eval="True" name="store"/>
+    <field eval="False" name="track_visibility"/>
+    <field eval="False" name="translate"/>
+    <field name="ttype">many2many</field>
   </record>
 </odoo>

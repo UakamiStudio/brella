@@ -1,25 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
   <record model="ir.ui.view" context="{'studio': True}" id="studio_customization.odoo_studio_res_part_28049b19-4e47-4dea-b701-4ff7ee1ea425">
-    <field name="active" eval="True"/>
-    <field name="arch" type="xml">
+    <field eval="True" name="active"/>
+    <field type="xml" name="arch">
       <data>
         <xpath expr="//form[1]/sheet[1]/group[1]/group[2]/field[@name='lang']" position="after">
           <field name="x_studio_field_vkaQU" string="WhatsApp" widget="char"/>
           <field name="x_studio_field_DArU1" string="Pagina de Facebook" widget="url"/>
         </xpath>
         <xpath expr="//field[@name='company_id']" position="after">
-          <field name="x_studio_field_7Xc1l" string="Origen" widget="char"/>
           <field name="x_studio_field_onNUF" string="Fecha de Registro" widget="date"/>
+          <field name="x_studio_field_2vPuG" widget="many2one" string="Origen"/>
         </xpath>
       </data>
     </field>
-    <field name="field_parent" eval="False"/>
-    <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field eval="False" name="field_parent"/>
+    <field eval="[(6, 0, [])]" name="groups_id"/>
+    <field ref="base.view_partner_form" name="inherit_id"/>
     <field name="mode">extension</field>
     <field name="model">res.partner</field>
     <field name="name">Odoo Studio: res.partner.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" context="{'studio': True}" id="studio_customization.odoo_studio_crm_lead_49b267c3-1f0b-48d3-821c-8a9760471df4">
+    <field eval="True" name="active"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='referred']" position="after">
+          <field name="x_studio_field_Kmc27" widget="many2many_tags" string="Etiquetas"/>
+        </xpath>
+      </data>
+    </field>
+    <field eval="False" name="field_parent"/>
+    <field eval="[(6, 0, [])]" name="groups_id"/>
+    <field ref="crm.crm_case_form_view_oppor" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">crm.lead</field>
+    <field name="name">Odoo Studio: crm.lead.form.opportunity customization</field>
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
