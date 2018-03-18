@@ -10,9 +10,13 @@
     'website': "https://uakami.com/",
     'license': 'AGPL-3',
     'depends': [
-        'base',
         'brella_groups',
         'brella_sale',
+        'studio_customization',
+        'sale_total_discount',
+        'sale_show_total_discount',
+        'website_link_tracker_lead',
+        'crm_sync_participants_marketing_automation',
     ],
     'data': [
     ],
