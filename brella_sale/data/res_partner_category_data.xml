@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data noupdate="0">
+
+    <record id="partner_category_brella_retailer" model="res.partner.category">
+      <field name="name">Distribuidor</field>
+    </record>
+
+    <record id="partner_category_brella_representative" model="res.partner.category">
+      <field name="name">Representante</field>
+    </record>
+
+  </data>
+</odoo>
